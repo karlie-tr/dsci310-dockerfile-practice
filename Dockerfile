@@ -5,6 +5,3 @@ RUN Rscript -e "install.packages('remotes', repos='https://cran.us.r-project.org
 
 # install cowsay
 RUN Rscript -e "remotes::install_version('cowsay','0.8.0')"
-
-# install ggplot2
-RUN Rscript -e "remotes::install_version('cowsay','	3.4.1')"
